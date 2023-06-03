@@ -41,4 +41,25 @@ void main() {
    int menos = 2;
    int sumMenos = subtrai - menos;
    print(sumMenos);
+
+  //Condições
+  double media = 9.0;
+  
+  if (media > 10.0) {
+      print("Reprovado");
+   } else {
+      print("Aprovado");
+    }
+
+  print(media < 6.0 ? "Reprovado" : "Aprovado");
+
+  String linguagem = "Java";
+  switch(linguagem) {
+    case "Dart":
+     print("é dart");
+     break;
+    case "Java":
+     print("é Java");
+     break;
+   }
 }
